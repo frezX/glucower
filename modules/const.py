@@ -8,7 +8,7 @@ class Const:
     def __init__(self):
         super().__init__()
         # Bot token to interact with the Telegram API
-        self.token = '5014965252:AAGG-FHyawMRZuHbUgRLIbIzg6nFPad0Z8w' 
+        self.token = '' 
         # URL API Telegram
         self.api = f"https://api.telegram.org/bot{self.token}/"
         # WebHook to get updates in the bot
