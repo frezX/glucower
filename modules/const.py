@@ -16,7 +16,7 @@ class Const:
         # Database Redis
         self.r = redis.Redis(decode_responses=True)
         # Uids on bot administrators
-        self.admins = []
+        self.admins = ()
         # Colors for outputting data to the console
         self.red = '\033[31m'
         self.blue = '\033[36m'
