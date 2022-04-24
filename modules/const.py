@@ -38,6 +38,6 @@ class Const:
     # Logging of main events and errors in the bot
     def logging(self, message, color=False):
         if not color:
-            with open("log/log.js", "a", encoding="utf-8") as file:
+            with open("log/log.txt", "a", encoding="utf-8") as file:
                 file.write(f"[{strftime('%d.%m.%y|%X')}] {message}\n")
         print(f"{self.blue}INFO {self.darkblue}[{strftime('%X')}]:{self.clear} {message}")
