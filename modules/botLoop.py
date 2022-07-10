@@ -1,7 +1,6 @@
 import sys
 import time
 import asyncio
-import threading
 
 from modules import api
 from modules import const
